@@ -1,0 +1,152 @@
+[
+  {
+    "path": "README.md",
+    "bytes": 11828,
+    "sha256": "3edec9a527de59a36595fdf5a8ace59610100e37c26f46e13d5a162ad10389b5"
+  },
+  {
+    "path": "接入提示词.md",
+    "bytes": 4941,
+    "sha256": "04a12411a0129da093a7d653b48777b3e66c40e10a221006f17d9f44190fcff4"
+  },
+  {
+    "path": "变更与验证.md",
+    "bytes": 4502,
+    "sha256": "2349fb6974d9fe80dc3db3f7a90ff6136f8a341ee5218c935cadb9ba73f4394b"
+  },
+  {
+    "path": "可复用源码全文.md",
+    "bytes": 94854,
+    "sha256": "78fbc4e7153fad991ae511b50aa7c1f30426e9cb143b69418dcd45ea196f8247"
+  },
+  {
+    "path": "源码加工记录.json",
+    "bytes": 1910,
+    "sha256": "3afa1910e9a524d4068939e668cce6ddb0eec8e8608257ca9cf5296a264f0a17"
+  },
+  {
+    "path": "独立性验证.json",
+    "bytes": 860,
+    "sha256": "464146aabe6b52060072729b86eacd8195c52df6a54b98efff36769122edb19a"
+  },
+  {
+    "path": "本轮测试输出.tap",
+    "bytes": 6124,
+    "sha256": "54da1b0871f8752ef9a8aa8569e895ddd3e53f84bc5bf69e35b06f1cff2105c7"
+  },
+  {
+    "path": "package.json",
+    "bytes": 622,
+    "sha256": "38c0d43cbb393c3d5936197acbe83ac149526e68776008a3054292b0cd05a62c"
+  },
+  {
+    "path": "index.js",
+    "bytes": 31,
+    "sha256": "483cf3828290f8b5ac56edaa9044268d612098ba4fca878d24626184e2ffdbc1"
+  },
+  {
+    "path": "index.d.ts",
+    "bytes": 5900,
+    "sha256": "82df1a80488ca9dab17a5f6ec02731c85ba6ffd18705a6ac6f953c05d68f1c74"
+  },
+  {
+    "path": "src/douyin-codec.js",
+    "bytes": 4254,
+    "sha256": "628f3a41de4164a62915b6dde718e872b7dd098a4562c22f54a35f149f306f62"
+  },
+  {
+    "path": "src/douyin-page.js",
+    "bytes": 10748,
+    "sha256": "2228da0333cc61ba2e1c1518045862ee65e51303c3b0feb4babe5dc48ed2078b"
+  },
+  {
+    "path": "src/douyin-transport.js",
+    "bytes": 3785,
+    "sha256": "c4c17c924bb3d98c74bc0c6b6b21e782cd66c5974c179375aadf67bc200478b6"
+  },
+  {
+    "path": "src/electron-host.js",
+    "bytes": 2089,
+    "sha256": "2254776702f3a3893c378f71988b6df65eb80f154283f8d21debd07811d1b5bb"
+  },
+  {
+    "path": "src/index.d.ts",
+    "bytes": 96,
+    "sha256": "300ae250c7b4f89e11ab35fb6836173c58d5de6e72a4370e819933afc9079ee3"
+  },
+  {
+    "path": "src/index.js",
+    "bytes": 622,
+    "sha256": "a691a92b2db1fb3e756d362d6bc514773f7b5413abea7fd74768281079277357"
+  },
+  {
+    "path": "src/pdd-codec.js",
+    "bytes": 9580,
+    "sha256": "582812cc5a491342916ec0074711f37b4ab6b72168c7a3720d44e4f306808b9c"
+  },
+  {
+    "path": "src/pdd-page.js",
+    "bytes": 4734,
+    "sha256": "234231d0e4e8955b3c6545f5d90ea4e979d0f4b8a189871a5997b7c4ea645359"
+  },
+  {
+    "path": "src/pdd-transport.js",
+    "bytes": 4446,
+    "sha256": "0d265238c23ff4263167c230eb227b24a277c51c0352fbb7ff96c8fa9de3374f"
+  },
+  {
+    "path": "src/state.js",
+    "bytes": 2224,
+    "sha256": "6529fd8977a7b7e1d0229b1404c696c86f343091a164023b2d1107080a26fda1"
+  },
+  {
+    "path": "src/store-client.js",
+    "bytes": 11784,
+    "sha256": "ef393240c0420799e0c460649c4160542afecad55b398600ec93d84a6bd85a83"
+  },
+  {
+    "path": "src/util.js",
+    "bytes": 979,
+    "sha256": "0a28ca66f4f0dacb186d78850acd28fa0086f14d9ae62a2984204e6e7a2a3b56"
+  },
+  {
+    "path": "examples/bind-electron-guest.js",
+    "bytes": 1414,
+    "sha256": "ed09d2751d3f22805846c4aa5f355a399a381b8927a616f8e3acfc8807e2343b"
+  },
+  {
+    "path": "examples/offline-demo.js",
+    "bytes": 2422,
+    "sha256": "ebff2c6aab324834bf59a56adcfcf73b3e9e1ade441331d1032a4397c1ef7663"
+  },
+  {
+    "path": "tests/client.test.js",
+    "bytes": 9558,
+    "sha256": "eb7e7b60f6ac8ac3c0cfb28403d2472efeda2a2e2b46d3887da4cd6ca0ac7fbb"
+  },
+  {
+    "path": "tests/fixtures.js",
+    "bytes": 3836,
+    "sha256": "c1f9be0f3b5b951692449f38c07a694cb270d13f408db1e6eefa66c7ebf1050f"
+  },
+  {
+    "path": "tests/page.test.js",
+    "bytes": 6006,
+    "sha256": "6831a710e0c7134e56364c1869e77e1ec0a6f646e6a7c72cd05dfdc49cbfe2db"
+  },
+  {
+    "path": "tests/transport.test.js",
+    "bytes": 4285,
+    "sha256": "d9f1e65682cc21dab3042fb641c95647bbd014d2a21bd8a4b8b615ee1e2925c6"
+  },
+  {
+    "path": "tests/types-smoke.ts",
+    "bytes": 1441,
+    "sha256": "123aa58a5cdb40127503ee7ec8b0a41b25167907032dc8bf190524718cddee21"
+  },
+  {
+    "path": "dist/shop-page-transport-kit-2.0.0.tgz",
+    "bytes": 29121,
+    "sha256": "cedcb7d9929b67c65551c892cff1b87068409b127c34b4232ed57b37a78211c9"
+  }
+]

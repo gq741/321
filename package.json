@@ -1,0 +1,13 @@
+{
+  "name": "shop-page-transport-kit",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Independent PDD CDP/page and Douyin page transports with an Electron host adapter",
+  "engines": { "node": ">=20" },
+  "exports": { ".": { "types": "./index.d.ts", "import": "./index.js" } },
+  "types": "./index.d.ts",
+  "main": "./index.js",
+  "files": ["src", "index.js", "index.d.ts", "examples", "README.md", "接入提示词.md", "变更与验证.md"],
+  "scripts": { "test": "node --test tests/client.test.js tests/page.test.js tests/transport.test.js", "demo": "node examples/offline-demo.js" }
+}

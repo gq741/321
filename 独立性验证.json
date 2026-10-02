@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-02",
+  "timezone": "Asia/Shanghai",
+  "nodeVersion": "v24.18.0",
+  "tests": {
+    "total": 29,
+    "passed": 29,
+    "failed": 0,
+    "outputFile": "本轮测试输出.tap"
+  },
+  "declarationTypecheckDiagnostics": 0,
+  "dependencyAudit": {
+    "thirdPartyRuntimeDependencies": 0,
+    "aliasesRequired": [],
+    "originalAppRequired": false
+  },
+  "cleanProject": {
+    "installedOffline": true,
+    "exportedApiImport": "passed",
+    "packageFileHashesMatched": 20,
+    "installedPackageCount": 1,
+    "demo": {
+      "observed": 1,
+      "duplicates": 1,
+      "simulatedSends": 1,
+      "is_aut": 1,
+      "receiptOutcome": "accepted"
+    }
+  },
+  "tarball": {
+    "file": "dist/shop-page-transport-kit-2.0.0.tgz",
+    "sha256": "cedcb7d9929b67c65551c892cff1b87068409b127c34b4232ed57b37a78211c9"
+  },
+  "realStoreTestsThisTurn": false
+}

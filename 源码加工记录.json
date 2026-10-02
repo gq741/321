@@ -1,0 +1,50 @@
+[
+  {
+    "originalName": "pddGuestSender.ts",
+    "originalSha256": "6b0bcad8fcc9af270641d7d43c27df9c8169499c42cf3a9207ccea9e9751ee3c",
+    "outputName": "pdd-page.js",
+    "outputSha256": "234231d0e4e8955b3c6545f5d90ea4e979d0f4b8a189871a5997b7c4ea645359",
+    "changes": [
+      "移除仅用于 TS 的原工程类型依赖",
+      "await 页面签名器",
+      "fetch + 响应读取 10 秒 AbortController 超时",
+      "诊断方法名改为宿主无关的 page.fetch"
+    ]
+  },
+  {
+    "originalName": "pddTitanDecoder.ts",
+    "originalSha256": "049c1b436ca3ff4289314ce528c09feb8632a0616d2259ac905e9cb9600b5fa6",
+    "outputName": "pdd-codec.js",
+    "outputSha256": "582812cc5a491342916ec0074711f37b4ab6b72168c7a3720d44e4f306808b9c",
+    "changes": [
+      "删除原工程类型依赖",
+      "解压输入 / 输出 / 尾部搜索约束",
+      "拒绝未知发送角色",
+      "拒绝丢精度数字 ID"
+    ]
+  },
+  {
+    "originalName": "douyinMessage.ts",
+    "originalSha256": "9a07e0e2e9cff0a1c549a70f09287339167c0c156ee1fe0f2982b9475647e37c",
+    "outputName": "douyin-codec.js",
+    "outputSha256": "628f3a41de4164a62915b6dde718e872b7dd098a4562c22f54a35f149f306f62",
+    "changes": [
+      "删除原工程类型依赖，保留字段标准化算法",
+      "拒绝已丢精度的数字消息 ID"
+    ]
+  },
+  {
+    "originalName": "douyinPageBridge.ts",
+    "originalSha256": "350e93298eada3f4ddca3b13d47343dc86e5ea081d79b7ec8df1620fbfb870f6",
+    "outputName": "douyin-page.js",
+    "outputSha256": "2228da0333cc61ba2e1c1518045862ee65e51303c3b0feb4babe5dc48ed2078b",
+    "changes": [
+      "独立命名空间与 origin 检查",
+      "修复 Array.map 被误当消息列表的错误",
+      "保留 pigeonMsgType / 时间字段",
+      "严格校验目标买家",
+      "重装 / stop 恢复 sendText，解绑或使旧回调失效",
+      "主动历史 API 探测默认关闭"
+    ]
+  }
+]

@@ -1,0 +1,184 @@
+TAP version 13
+# Subtest: client: starts OFF, observes messages, enabling does not resend OFF-time history
+ok 1 - client: starts OFF, observes messages, enabling does not resend OFF-time history
+  ---
+  duration_ms: 3.7659
+  type: 'test'
+  ...
+# Subtest: client: same ID is deduped; same text with a different ID is a distinct message
+ok 2 - client: same ID is deduped; same text with a different ID is a distinct message
+  ---
+  duration_ms: 16.7092
+  type: 'test'
+  ...
+# Subtest: client: store ID is part of the persistent dedup key
+ok 3 - client: store ID is part of the persistent dedup key
+  ---
+  duration_ms: 15.3255
+  type: 'test'
+  ...
+# Subtest: client: two buyers are sent sequentially to their exact buyer IDs
+ok 4 - client: two buyers are sent sequentially to their exact buyer IDs
+  ---
+  duration_ms: 46.6243
+  type: 'test'
+  ...
+# Subtest: client: per-conversation merge saves a receipt mapping for every inbound ID
+ok 5 - client: per-conversation merge saves a receipt mapping for every inbound ID
+  ---
+  duration_ms: 2.777
+  type: 'test'
+  ...
+# Subtest: client: manual reply during an async decision cancels sending and remains paused
+ok 6 - client: manual reply during an async decision cancels sending and remains paused
+  ---
+  duration_ms: 0.8452
+  type: 'test'
+  ...
+# Subtest: client: own echo arriving before send return does not create manual pause
+ok 7 - client: own echo arriving before send return does not create manual pause
+  ---
+  duration_ms: 11.8778
+  type: 'test'
+  ...
+# Subtest: client: old merchant history is not a new permanent manual pause
+ok 8 - client: old merchant history is not a new permanent manual pause
+  ---
+  duration_ms: 15.2851
+  type: 'test'
+  ...
+# Subtest: client: stale history and media are observed but not automatically answered
+ok 9 - client: stale history and media are observed but not automatically answered
+  ---
+  duration_ms: 0.6844
+  type: 'test'
+  ...
+# Subtest: client: unknown send outcome stays deduped after a restart, with no blind fallback
+ok 10 - client: unknown send outcome stays deduped after a restart, with no blind fallback
+  ---
+  duration_ms: 1.9402
+  type: 'test'
+  ...
+# Subtest: client: throwing consumer hooks do not break observation or sending
+ok 11 - client: throwing consumer hooks do not break observation or sending
+  ---
+  duration_ms: 13.132
+  type: 'test'
+  ...
+# Subtest: client: consumer mutation does not change the transport buyer or message ID
+ok 12 - client: consumer mutation does not change the transport buyer or message ID
+  ---
+  duration_ms: 15.5433
+  type: 'test'
+  ...
+# Subtest: client: persistent manual pause survives restart; explicit resume affects only its conversation
+ok 13 - client: persistent manual pause survives restart; explicit resume affects only its conversation
+  ---
+  duration_ms: 31.768
+  type: 'test'
+  ...
+# Subtest: client: stopping or disconnecting cancels buffered replies
+ok 14 - client: stopping or disconnecting cancels buffered replies
+  ---
+  duration_ms: 0.3546
+  type: 'test'
+  ...
+# Subtest: JSON state: atomic save and re-open; corrupt state fails closed
+ok 15 - JSON state: atomic save and re-open; corrupt state fails closed
+  ---
+  duration_ms: 17.0318
+  type: 'test'
+  ...
+# Subtest: PDD: async signer, JSON argument escaping, text hash, auto flags and formal ID
+ok 16 - PDD: async signer, JSON argument escaping, text hash, auto flags and formal ID
+  ---
+  duration_ms: 7.1037
+  type: 'test'
+  ...
+# Subtest: PDD: HTTP 200 and a UI bubble are not acceptance
+ok 17 - PDD: HTTP 200 and a UI bubble are not acceptance
+  ---
+  duration_ms: 2.3222
+  type: 'test'
+  ...
+# Subtest: PDD: wrong origin and missing signer produce no fetch
+ok 18 - PDD: wrong origin and missing signer produce no fetch
+  ---
+  duration_ms: 2.207
+  type: 'test'
+  ...
+# Subtest: PDD: embedded gzip, duplicate IDs, UID role and unknown roles
+ok 19 - PDD: embedded gzip, duplicate IDs, UID role and unknown roles
+  ---
+  duration_ms: 2.5142
+  type: 'test'
+  ...
+# Subtest: Douyin: array history bug repaired and pigeonMsgType retained
+ok 20 - Douyin: array history bug repaired and pigeonMsgType retained
+  ---
+  duration_ms: 2.5703
+  type: 'test'
+  ...
+# Subtest: Douyin: native send has no manual event, real send has one
+ok 21 - Douyin: native send has no manual event, real send has one
+  ---
+  duration_ms: 1.5756
+  type: 'test'
+  ...
+# Subtest: Douyin: missing/wrong buyer identity blocks send
+ok 22 - Douyin: missing/wrong buyer identity blocks send
+  ---
+  duration_ms: 0.9277
+  type: 'test'
+  ...
+# Subtest: Douyin: origin guard, inactive stale listener and clean reinstall
+ok 23 - Douyin: origin guard, inactive stale listener and clean reinstall
+  ---
+  duration_ms: 1.6223
+  type: 'test'
+  ...
+# Subtest: Douyin: timestamp arguments are encoded and cannot insert a script
+ok 24 - Douyin: timestamp arguments are encoded and cannot insert a script
+  ---
+  duration_ms: 1.1727
+  type: 'test'
+  ...
+# Subtest: Unsafe numeric message IDs are dropped rather than sent to a rounded ID
+ok 25 - Unsafe numeric message IDs are dropped rather than sent to a rounded ID
+  ---
+  duration_ms: 0.3767
+  type: 'test'
+  ...
+# Subtest: PDD transport: observation while reply is off, manual request, send and disposal
+ok 26 - PDD transport: observation while reply is off, manual request, send and disposal
+  ---
+  duration_ms: 9.0009
+  type: 'test'
+  ...
+# Subtest: PDD: lost CDP capture blocks sending and emits explicit status
+ok 27 - PDD: lost CDP capture blocks sending and emits explicit status
+  ---
+  duration_ms: 1.5382
+  type: 'test'
+  ...
+# Subtest: Douyin transport: frame filtering, non-selected buyer, native receipt and disposal
+ok 28 - Douyin transport: frame filtering, non-selected buyer, native receipt and disposal
+  ---
+  duration_ms: 4.2773
+  type: 'test'
+  ...
+# Subtest: Electron host: nested frames, origin check, debugger conflict and cleanup
+ok 29 - Electron host: nested frames, origin check, debugger conflict and cleanup
+  ---
+  duration_ms: 1.0332
+  type: 'test'
+  ...
+1..29
+# tests 29
+# suites 0
+# pass 29
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 372.0308
